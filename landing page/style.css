@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+/* header */
+header {
+    position: relative;
+}
+
+.hero-image {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+   
+}
+.hero-image:hover img {
+    opacity: 0.5; 
+   
+}
+
+
+
+.head {
+    position: absolute;
+    top:0%;
+    width: 100%;
+    max-width: 1550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+   
+}
+
+.logo {
+    font-size: 2rem; 
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li {
+    margin: 0 1rem;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav ul li a:hover {
+    color: #504242;
+}
+
+.welcome {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: #000000;
+}
+.w1{
+    font-size: 20px;
+}
+.w2{
+    font-size: 40px;
+    line-height: 50px;
+}
+.w3{
+    font-size: 15px;
+    padding: 20px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #f0ecec;
+}
+/* icon */
+.icon {
+    background:#5d5453;
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding: 0 150px;
+}
+
+.coffee {
+    display: flex;
+    align-items: center;
+    text-align: center;
+   margin-left: 10px;
+   margin-right: 10px;
+    height: 70px;
+    width: 90px;
+}
+.coffee:hover{
+    height: 50px;
+    width: 70px;
+}
+.txt {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+/* special coffee */
+.stext {
+    color: #403434;
+    text-align: center;
+    font-size: 30px;
+}
+.stext:hover{
+    font-size: 40px;
+}
+.scoffee {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 120px;
+}
+.icoffee{
+    width: 100%;
+    height: 250px;
+}
+.special {
+    background: linear-gradient(to left, rgb(227, 215, 213), #ffffff);
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+.special:hover{
+    width: 270px;
+    padding: 12px;
+}
+.stxt {
+    font-size: 20px;
+}
+.sstxt {
+    font-size: 10px;
+}
+.sbutton {
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* check */
+.check {
+   
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+.icheck {
+    height: 310px;
+    width: auto; 
+}
+.icheck:hover{
+    height: 330px;
+}
+.content{
+    height: 310px;
+    width: auto; 
+   padding-top: 50px;
+}
+.check:hover{
+    background-color: #5c4a4a;
+    color: #f0ecec;
+}
+
+.ctxt {
+    font-size: 36px; 
+   
+}
+
+.ctxt .large {
+    font-size: 36px;
+    margin-bottom: 20px; 
+}
+
+.cbutton{
+    background-color: rgb(81, 68, 68);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.cbutton:hover{
+    background:#b8a9a9;
+    color: #000000;
+}
+
+/* cousmor */
+
+.customer {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 120px;
+    text-align: center;
+}
+.ccoffee{
+    width: 100%;
+    height: 250px;
+    border: solid black 2px;
+    border-radius: 50%;
+}
+.ccoffee:hover{
+    border-radius: 20%;
+}
+.customers {
+   
+ border: solid rgb(78, 75, 75) 0.1px;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0ecec;
+}
+.customers:hover{
+    background-color: #b8a9a9;
+}
+.cuname {
+    font-size: 25px;
+}
+.cuname:hover{
+    font-size: 30px;
+}
+.cutxt {
+    font-size: 10px;
+}
+.custxt{
+    font-size: 14px;
+}
+/* subscribe */
+.subcoffee{
+   
+    width: auto;
+    height: 400px;
+    margin-left: 200px;
+   
+}
+
+.subscribe {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.subtxt {
+    position: absolute;
+    
+   left: 45%;
+    
+}
+.subtxt1 { 
+    font-size: 50px;
+  margin-bottom: -30px;
+   color: #403434;
+}
+.subtxt2 {   
+    font-size: 20px;
+    color: #2e2727;
+
+}
+.subscribe-form {
+    display: flex;
+    align-items: center;
+
+}
+.email{
+    background-color: #b8a9a9;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+    width: 400px;
+}
+.email:hover{
+    background-color: white;
+    color: black;
+}
+.subbtn{
+    background-color: #403434;
+    border-radius: 30px;
+    color: #ffffff;
+    height: auto;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 40px;
+}
+.subbtn:hover
+{
+    background-color: #f0ecec;
+    color: black;
+}
+
+/* service */
+.sercoffee{
+   
+    height:300px;
+ margin-left: 60%;
+    
+}
+.sercoffee:hover{
+    height: 320px;
+}
+.servicetxt{
+    position: absolute;
+    display: flex;
+    left: 25%;
+    top:0%;
+    color: #695c5c;
+    font-size: 40px;
+}
+.servicetxt:hover{
+    font-size: 43px;
+}
+.sertxt{
+    position: absolute;
+    display: flex;
+    left: 10%;
+    top:30%
+}
+.sertxt1{
+   color: #2e2727;
+   margin-left: 40px;
+   font-size: 30px;
+}
+.subscribe .sertxt .sertxt1 img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border: #2e2727 solid 1px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.subscribe .sertxt .sertxt1 img:hover{
+    background-color: #b8a9a9;
+}
+.subscribe .sertxt .sertxt1 p{
+    color: #a38b8b;
+}
+/* footer */
+
+.footer {
+    position: relative;
+    text-align: center;
+    height: 300px;
+    width: auto;
+   
+  
+}
+
+.fot {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 0 400px;
+    
+}
+
+.f1{
+    padding: 10px;
+    margin:  0 20px;
+}
+
+.f2 {
+    font-weight: 50px;
+    font-size: 30px;
+    color: #2e2727;
+}
+.f2:hover{
+    font-size: 40px;
+}
+
+.f3 {
+    line-height: 30px;
+    color: #403434;
+}
+
+.fcoffee {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(180deg);
+   
+}
+
